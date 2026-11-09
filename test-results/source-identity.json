@@ -1,0 +1,16 @@
+{
+  "product_id": "JLZ-EDU-AG-027",
+  "repository_name": "edu-course-portfolio-profitability-agent",
+  "tested_source_commit": "850534eca460bc14991ca64e6d1ea21b06054cec",
+  "tested_source_tree_sha": "3459997bfcb85c84d727ed4b6dc3e20786c6dbaf",
+  "product_version": "1.0.0",
+  "package_sha256": "D59BC2B2CF4EFFD200012A8C421C7392160CE76D811EF00EE6349C227E066BE1",
+  "runtime_test_status": "LOCAL_TEST_PASS",
+  "runtime_test_count": 67,
+  "schema_validation_status": "SCHEMA_INSTANCE_VALIDATION_PASS",
+  "schema_validation_case_count": 16,
+  "scenario_count": 15,
+  "scenario_execution_status": "MAPPED_NOT_INDIVIDUALLY_EXECUTED",
+  "model_runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED"
+}

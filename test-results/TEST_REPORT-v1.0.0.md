@@ -1,0 +1,24 @@
+# 产品测试报告 v1.0.0
+
+- 产品：课程产品组合盈利诊断（JLZ-EDU-AG-027）
+- 本地测试：LOCAL_TEST_PASS
+- 检查项：67
+- 既定场景：15
+- 模型运行：MODEL_RUNTIME_NOT_VERIFIED
+- WorkBuddy：NOT_EXECUTED
+
+## 层级统计
+
+- T1_FILE_STRUCTURE: 25/25 PASS
+- T2_METADATA_CONTRACT: 3/3 PASS
+- T3_INPUT_CONTRACT: 8/8 PASS
+- T4_OUTPUT_CONTRACT: 15/15 PASS
+- T5_AGENT_STATE: 6/6 PASS
+- T6_DETERMINISTIC: 5/5 PASS
+- T7_SCENARIO_MAPPING: 1/1 PASS
+- T8_SECURITY: 3/3 PASS
+- T9_PACKAGE_INTEGRITY: 1/1 PASS
+
+## 边界
+
+生成式模型输出未在本地运行；15项既定场景已映射到自动化契约路径，但未逐项进行生成式模型运行，也不能冒充WorkBuddy真实模型调用。
