@@ -1,0 +1,107 @@
+[
+  {
+    "case_id": "standard_vector",
+    "input": {
+      "courses": [
+        {
+          "name": "数学A",
+          "net_revenue": 600000,
+          "variable_cost": 240000,
+          "resource_hours": 1200,
+          "students": 100,
+          "renewal": 0.72,
+          "refund": 0.05
+        },
+        {
+          "name": "英语B",
+          "net_revenue": 420000,
+          "variable_cost": 280000,
+          "resource_hours": 1000,
+          "students": 80,
+          "renewal": 0.55,
+          "refund": 0.09
+        },
+        {
+          "name": "编程C",
+          "net_revenue": 360000,
+          "variable_cost": 150000,
+          "resource_hours": 700,
+          "students": 45,
+          "renewal": 0.8,
+          "refund": 0.02
+        }
+      ]
+    },
+    "expected": {
+      "portfolio_contribution": 710000,
+      "weighted_renewal_rate": 0.6755555555555556
+    }
+  },
+  {
+    "case_id": "empty_courses",
+    "input": {
+      "courses": []
+    },
+    "expected_error": "INPUT_INVALID"
+  },
+  {
+    "case_id": "zero_revenue",
+    "input": {
+      "courses": [
+        {
+          "name": "X",
+          "net_revenue": 0,
+          "variable_cost": 100,
+          "resource_hours": 10,
+          "students": 1,
+          "renewal": 0.5,
+          "refund": 0.1
+        }
+      ]
+    },
+    "expected_error": "INPUT_INVALID"
+  },
+  {
+    "case_id": "zero_resource",
+    "input": {
+      "courses": [
+        {
+          "name": "X",
+          "net_revenue": 1000,
+          "variable_cost": 100,
+          "resource_hours": 0,
+          "students": 1,
+          "renewal": 0.5,
+          "refund": 0.1
+        }
+      ]
+    },
+    "expected_error": "INPUT_INVALID"
+  },
+  {
+    "case_id": "duplicate_course",
+    "input": {
+      "courses": [
+        {
+          "name": "数学A",
+          "net_revenue": 600000,
+          "variable_cost": 240000,
+          "resource_hours": 1200,
+          "students": 100,
+          "renewal": 0.72,
+          "refund": 0.05
+        },
+        {
+          "name": "数学A",
+          "net_revenue": 600000,
+          "variable_cost": 240000,
+          "resource_hours": 1200,
+          "students": 100,
+          "renewal": 0.72,
+          "refund": 0.05
+        }
+      ]
+    },
+    "expected_error": "INPUT_CONFLICT"
+  }
+]

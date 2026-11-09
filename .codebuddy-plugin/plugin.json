@@ -1,0 +1,63 @@
+{
+  "name": "edu-course-portfolio-profitability-agent",
+  "version": "1.0.0",
+  "description": "A multi-step education agent for Course Portfolio Profitability Agent.",
+  "author": {
+    "name": "广州金励泽科技服务有限公司",
+    "email": "270911570+yangsongbaofu-dot@users.noreply.github.com"
+  },
+  "agents": [
+    "./agents/edu-course-portfolio-profitability-agent.md"
+  ],
+  "expertType": "agent",
+  "agentName": "edu-course-portfolio-profitability-agent",
+  "displayName": {
+    "en": "Course Portfolio Profitability Agent",
+    "zh": "课程产品组合盈利诊断"
+  },
+  "profession": {
+    "en": "Course Portfolio Profitability Agent",
+    "zh": "课程产品组合盈利诊断"
+  },
+  "displayDescription": {
+    "en": "Multi-step professional workflow for Course Portfolio Profitability Agent.",
+    "zh": "按课程、班型、校区和客群分析收入、贡献毛利、续费、退费、复杂度和资源占用，制定保留/改造/退出路线。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "15-Education",
+  "defaultInitPrompt": {
+    "en": "Help me complete Course Portfolio Profitability Agent.",
+    "zh": "请帮我完成一次课程产品组合盈利诊断"
+  },
+  "plugin": "edu-course-portfolio-profitability-agent",
+  "tags": [
+    {
+      "en": "Education",
+      "zh": "教培机构"
+    },
+    {
+      "en": "Professional Workflow",
+      "zh": "专业工作流"
+    },
+    {
+      "en": "Course Portfolio Profitability Agent",
+      "zh": "课程产品组合盈利诊断"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "Help me complete Course Portfolio Profitability Agent.",
+      "zh": "请帮我完成一次课程产品组合盈利诊断"
+    },
+    {
+      "en": "Start with scope and evidence inventory.",
+      "zh": "请先确认范围并盘点资料"
+    },
+    {
+      "en": "Generate the final deliverables with risks and open questions.",
+      "zh": "请生成最终成果，并列出风险与待确认事项"
+    }
+  ],
+  "homepage": "https://github.com/jinlize-tech/edu-course-portfolio-profitability-agent",
+  "license": "Apache-2.0"
+}

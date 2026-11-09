@@ -1,0 +1,31 @@
+{
+  "number": 27,
+  "product_id": "JLZ-EDU-AG-027",
+  "candidate_id": "CAND-033",
+  "chinese_name": "课程产品组合盈利诊断",
+  "english_name": "Course Portfolio Profitability Agent",
+  "repository_name": "edu-course-portfolio-profitability-agent",
+  "repository_url": "https://github.com/jinlize-tech/edu-course-portfolio-profitability-agent",
+  "product_type": "Agent",
+  "category": "12 经营决策与财务规划中心",
+  "batch": 1,
+  "version": "1.0.0",
+  "license": "Apache-2.0",
+  "core_outputs": [
+    "课程组合矩阵",
+    "盈利排名",
+    "保留/改造/退出建议"
+  ],
+  "optional_outputs": [
+    "资源占用",
+    "情景对比",
+    "学生安置和风险清单"
+  ],
+  "high_risk": false,
+  "deterministic": true,
+  "scenario_count": 15,
+  "package_path": "dist/edu-course-portfolio-profitability-agent-v1.0.0.zip",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+}

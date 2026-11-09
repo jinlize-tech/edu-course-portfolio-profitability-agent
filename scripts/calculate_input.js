@@ -1,0 +1,1 @@
+const fs=require('fs');const path=require('path');const {calculate}=require('./calculate');const p=process.argv[2];if(!p){process.exit(2);}const r=calculate(JSON.parse(fs.readFileSync(path.resolve(p),'utf8')));console.log(JSON.stringify(r,null,2));process.exit(r.ok?0:2);

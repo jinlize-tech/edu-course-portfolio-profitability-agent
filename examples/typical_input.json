@@ -1,0 +1,20 @@
+{
+  "contract_version": "1.2.0",
+  "data_status": "confirmed",
+  "contains_sensitive_data": false,
+  "requested_output_language": "zh-CN",
+  "course_financials": [
+    {}
+  ],
+  "course_operations": [
+    {}
+  ],
+  "student_placement_constraints": [
+    {}
+  ],
+  "strategic_priorities": [
+    {}
+  ],
+  "decision_weights": {},
+  "resume_mode": "new"
+}

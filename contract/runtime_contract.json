@@ -1,0 +1,100 @@
+{
+  "contract_version": "1.2.0",
+  "product_id": "JLZ-EDU-AG-027",
+  "product_name": "课程产品组合盈利诊断",
+  "product_type": "Agent",
+  "repository_name": "edu-course-portfolio-profitability-agent",
+  "repository_url": "https://github.com/jinlize-tech/edu-course-portfolio-profitability-agent",
+  "product_version": "1.0.0",
+  "batch": 1,
+  "business_category": "12 经营决策与财务规划中心",
+  "high_risk": false,
+  "deterministic": true,
+  "agent": true,
+  "core_outputs": [
+    "课程组合矩阵",
+    "盈利排名",
+    "保留/改造/退出建议"
+  ],
+  "optional_outputs": [
+    "资源占用",
+    "情景对比",
+    "学生安置和风险清单"
+  ],
+  "all_outputs": [
+    "课程组合矩阵",
+    "盈利排名",
+    "保留/改造/退出建议",
+    "资源占用",
+    "情景对比",
+    "学生安置和风险清单"
+  ],
+  "human_review_required": false,
+  "reviewer_role": "业务负责人",
+  "commercial_boundary": null,
+  "input_required": [
+    "contract_version",
+    "data_status",
+    "contains_sensitive_data",
+    "course_financials",
+    "course_operations",
+    "student_placement_constraints",
+    "decision_weights"
+  ],
+  "input_properties": {
+    "contract_version": {
+      "type": "string"
+    },
+    "data_status": {
+      "type": "string",
+      "enum": [
+        "confirmed",
+        "partially_confirmed",
+        "unconfirmed"
+      ]
+    },
+    "contains_sensitive_data": {
+      "type": "boolean"
+    },
+    "requested_output_language": {
+      "type": "string",
+      "enum": [
+        "zh-CN",
+        "en"
+      ],
+      "default": "zh-CN"
+    },
+    "course_financials": {
+      "type": "array"
+    },
+    "course_operations": {
+      "type": "array"
+    },
+    "student_placement_constraints": {
+      "type": "array"
+    },
+    "strategic_priorities": {
+      "type": "array"
+    },
+    "decision_weights": {
+      "type": "object"
+    },
+    "resume_mode": {
+      "type": "string",
+      "enum": [
+        "new",
+        "resume",
+        "target_change",
+        "stage_rollback"
+      ],
+      "default": "new"
+    },
+    "agent_state": {
+      "type": "object"
+    }
+  },
+  "expected_scenario_count": 15,
+  "license": "Apache-2.0",
+  "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED"
+}
