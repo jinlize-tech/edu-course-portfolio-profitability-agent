@@ -9,7 +9,7 @@
   "product_type": "Agent",
   "category": "12 经营决策与财务规划中心",
   "batch": 1,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "Apache-2.0",
   "core_outputs": [
     "课程组合矩阵",
@@ -24,8 +24,13 @@
   "high_risk": false,
   "deterministic": true,
   "scenario_count": 15,
-  "package_path": "dist/edu-course-portfolio-profitability-agent-v1.0.0.zip",
+  "package_path": "dist/edu-course-portfolio-profitability-agent-v1.0.1.zip",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "status": "LOCAL_DEVELOPMENT_COMPLETE_PENDING_REMOTE_VERIFICATION"
+  "status": "DOCUMENTATION_AND_METADATA_PATCH_1.0.1_BUILT_PENDING_REMOTE_VERIFICATION",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-course-portfolio-profitability-agent-v1.0.0.zip",
+  "previous_package_sha256": "D59BC2B2CF4EFFD200012A8C421C7392160CE76D811EF00EE6349C227E066BE1",
+  "package_state": "PATCH_PACKAGE_V1.0.1_BUILT",
+  "readme_repair": "README_USAGE_INSTALLATION_ALIGNED_WITH_PACKAGE_CONTENTS"
 }

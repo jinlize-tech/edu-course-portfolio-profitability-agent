@@ -2,10 +2,10 @@
   "product_id": "JLZ-EDU-AG-027",
   "repository_name": "edu-course-portfolio-profitability-agent",
   "product_type": "Agent",
-  "version": "1.0.0",
-  "package_path": "dist/edu-course-portfolio-profitability-agent-v1.0.0.zip",
-  "sha256": "D59BC2B2CF4EFFD200012A8C421C7392160CE76D811EF00EE6349C227E066BE1",
-  "bytes": 48771,
+  "version": "1.0.1",
+  "package_path": "dist/edu-course-portfolio-profitability-agent-v1.0.1.zip",
+  "sha256": "85C7C75887F2A613A90B10993E4C24190459F0559C7B1BC686F3F8DC8130E411",
+  "bytes": 49890,
   "entries": [
     "edu-course-portfolio-profitability-agent/README.md",
     "edu-course-portfolio-profitability-agent/PRODUCT_SPEC.md",
@@ -40,5 +40,9 @@
   "license": "Apache-2.0",
   "runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
   "workbuddy_validation": "NOT_EXECUTED",
-  "built_at": "2026-11-09T00:00:00+08:00"
+  "built_at": "2026-11-09T12:00:10.552402+00:00",
+  "previous_version": "1.0.0",
+  "previous_package_path": "dist/edu-course-portfolio-profitability-agent-v1.0.0.zip",
+  "previous_package_sha256": "D59BC2B2CF4EFFD200012A8C421C7392160CE76D811EF00EE6349C227E066BE1",
+  "patch_reason": "README_USAGE_INSTALLATION_AND_PLATFORM_METADATA_FINALIZATION"
 }
