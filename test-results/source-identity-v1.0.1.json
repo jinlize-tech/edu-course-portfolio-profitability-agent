@@ -1,0 +1,17 @@
+{
+  "product_id": "JLZ-EDU-AG-027",
+  "repository_name": "edu-course-portfolio-profitability-agent",
+  "version": "1.0.1",
+  "tested_source_commit": "4828d2ad528f471c758f377054ca5a0fb227d0c0",
+  "tested_source_tree_sha": "45dc3b5057d1dc28e362bd19e8668c1c23b0ccb5",
+  "package_path": "dist/edu-course-portfolio-profitability-agent-v1.0.1.zip",
+  "package_sha256": "85C7C75887F2A613A90B10993E4C24190459F0559C7B1BC686F3F8DC8130E411",
+  "runtime_test_status": "LOCAL_TEST_PASS",
+  "runtime_test_count": 67,
+  "schema_validation_status": "SCHEMA_INSTANCE_VALIDATION_PASS",
+  "schema_validation_case_count": 16,
+  "model_runtime_status": "MODEL_RUNTIME_NOT_VERIFIED",
+  "workbuddy_validation": "NOT_EXECUTED",
+  "readme_repair": "PASS",
+  "plugin_author_name": "Education AI Tools Maintainers"
+}
